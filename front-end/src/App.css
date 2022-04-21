@@ -1,3 +1,25 @@
+.App {
+  padding: 0 10%;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  height: 100vh;
+}
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding: 0 25px;
+  color: white;
+  text-decoration: none;
+}
+header nav a:hover {
+  border-bottom: 3px solid white;
+}
 
 /*# sourceMappingURL=App.css.map */

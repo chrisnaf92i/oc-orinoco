@@ -1,0 +1,19 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+
+    nav {
+        display:flex;
+
+        a {
+            padding:0 25px ;
+            color:white;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom: 3px solid white;
+            }
+        }
+    }
+}
